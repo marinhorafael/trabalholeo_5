@@ -1,0 +1,95 @@
+/*
+ * Arquivo CSS
+ */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.center { 
+    font-family:Tahoma; 
+    font-size:12pt;
+    width: 400px; 
+    height: 150px; 
+    left: 50%; 
+    margin: -130px 0 0 -210px; 
+    padding:10px;
+    position: absolute; 
+    top: 50%; }
+
+/*h1{
+    color: black;
+    font-family: Arial;
+    font-weight: normal;
+    background-color:powderblue;
+    border-radius: 5px;
+}*/
+#intro{
+    background-color:black;
+    font-family: Arial;	
+    color:white;
+    border:1px solid grey;
+    padding:10px;
+    margin:30px;
+    font-size:140%;
+    border-radius: 5px;
+}
+
+
+
+select.basic{
+    /*display: block;*//*forma como será exibida*/
+    /*margin: 10px;alinhamento das caixas*/
+    background: #fff;/*cor das caixas*/
+    /*padding: 1px;space inside the border*/
+    font-size: 10pt;/*tamanho fonte dentro da caixa*/
+    border: 1px solid black;/*property for borders*/
+    /*transition: all 1s ease;*/
+    border-radius: 5px;/*arredondar borda*/
+}
+input:read-only {
+    background-color: #DCDCDC;
+}
+/*input.black{
+    display: block;
+    background: #0d0d0d;
+    width: 200px;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 12pt;
+    transition: all 0.3s ease;
+}*/
+
+fieldset{
+    border-radius: 5px;
+}
+
+
+input:-moz-read-only { /* For Firefox */
+    background-color: #DCDCDC;
+}
+
+input[type="text"].basic{
+    background: #fff;/*cor das caixas*/
+    /*padding: 1px;space inside the border*/
+    font-size: 10pt;/*tamanho fonte dentro da caixa*/
+    border: 1px solid black;/*property for borders*/
+    border-radius: 5px;/*arredondar borda*/
+    transition: all 0.3s ease;
+    margin-right: 1em;
+}
